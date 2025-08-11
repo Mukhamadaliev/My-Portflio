@@ -1,0 +1,153 @@
+.background-footert {
+    background-color: rgba(245, 245, 245, 0.816);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.h1-footer,
+.p-footer {
+    text-align: center;
+}
+
+.footer-1 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+    ul {
+        list-style: none;
+
+        li {
+            margin: 10px 0px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}
+
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 450px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0;
+}
+
+input:focus {
+    border: none;
+    outline: 1px solid #3b82f6;
+}
+
+textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+    max-width: 450px;
+}
+
+textarea:focus {
+    border: none;
+    outline: 1px solid #3b82f6;
+}
+
+.footer-2 button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.footer-2 button:hover {
+    background-color: #357ef4;
+}
+
+/* ===== RESPONSIVE MEDIA ===== */
+
+
+@media (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+    }
+
+    .h1-footer {
+        font-size: 1.4rem;
+    }
+
+    .p-footer {
+        font-size: 0.85rem;
+        padding: 0 10px;
+    }
+
+    .footer-1 li {
+        font-size: 0.9rem;
+        gap: 6px;
+    }
+
+    .footer-2 input,
+    .footer-2 textarea,
+    .footer-2 button {
+        font-size: 0.85rem;
+    }
+}
+
+/* 📱 Telefonlar (481px - 768px) */ 
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-1 li {
+        justify-content: center;
+    }
+
+    .footer-2 {
+        max-width: 400px;
+    }
+}
+
+/* 💻 Planshet (769px - 992px) */
+@media (max-width: 992px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-1 {
+        margin-bottom: 20px;
+    }
+
+    .footer-2 {
+        max-width: 500px;
+    }
+
+    .h1-footer {
+        font-size: 1.8rem;
+    }
+}

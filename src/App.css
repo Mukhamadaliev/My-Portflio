@@ -1,0 +1,85 @@
+/* ? kutubxona */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ? root */
+:root {
+    --blue: #2563eb;
+    --black: #000;
+    --white: white;
+    --minus-whihe: rgba(255, 255, 255, 0.7);
+}
+/* ? font-size */
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-35 {
+    font-size: 35px;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.font-size-50 {
+    font-size: 50px;
+}
+
+/* ? font-weight-500 */
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-900 {
+    font-weight: 900;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+button,
+input,
+i,
+li {
+    cursor: pointer;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    flex-wrap: wrap;
+}
+
+/* ? kutubxona */
