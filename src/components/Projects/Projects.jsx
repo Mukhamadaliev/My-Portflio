@@ -11,7 +11,7 @@ const Projects = () => {
 
             <div className="max-width">
 
-                <div className='project'>
+                <div className='project' id='Projects'>
                     <br />
                     <h1 className='h1-Projects'>My Projects</h1>
                     <br />

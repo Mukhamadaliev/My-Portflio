@@ -14,7 +14,7 @@ const Footer = () => {
               <ul>
                 <li><i class="bx bx-pin"></i>Samarkand, Uzbekistan</li>
                 <li><i class="bx bx-mail-send"></i>muxammadaliyevibrohim@gmail.com</li>
-                <li><i class="bx bx-phone"></i><a href="https://tel/+998 94 723 88 50">+998 94 723 88 50</a></li>
+                <li><i class="bx bx-phone"></i><a href="tel:+998947238850">+998-(94)-723-88-50</a></li>
                 <li><i class="bx bx-paper-plane"></i><a href="https://t.me/Mukhamadaliyev20">Ibrohimdev</a></li>
               </ul>
             </div>
